@@ -1,0 +1,80 @@
+.mapcontainer{
+    position: relative;
+    
+    display: flex;
+   justify-content: center; /* 수평 정렬 */
+   align-items: center; /* 수직 정렬 */
+    flex-direction: column;
+    
+    background-color: aquamarine;
+    justify-content: space-between;
+   
+    
+    width: 1500px;
+    height: 1500px;
+    padding: 20px;
+   
+    
+}
+.busanmap{
+    text-align: center;
+    position: relative;
+    
+    display: flex;
+   justify-content: center; /* 수평 정렬 */
+   align-items: center; /* 수직 정렬 */
+    flex-direction: column;
+    
+    /*background-color: aquamarine;*/
+    justify-content: space-between;
+   
+   
+    
+}
+
+
+.btnmap{
+   
+    position: absolute; /* 자식 요소 위치 설정 */
+    margin-top: 400px; /* 부모 요소의 세로 중앙 위치 */
+    margin-left: -1000px; /* 부모 요소의 가로 중앙 위치 */
+    transform: translate(-50%, -50%); /* 중앙 정렬 */
+    
+    
+}
+
+.boardcontainer{
+    
+    width: 1300px;
+    height: 150px;
+    padding: 20px;
+    display: inline-block;
+ /*
+   background-color: aqua;
+   
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    */
+    font-size: 0;
+}
+
+h1{
+    font-size: 80px;
+    float:left;
+    /*float: center;*/
+}
+
+
+.boardcontainer h1,
+.boardcontainer img {
+  display: inline-block; /* 요소들을 인라인 블록 요소로 설정하여 나란히 정렬 */
+  vertical-align: top; /* 요소들을 상단 정렬 */
+}
+
+.boardcontainer img {
+    margin-left: 30px; /* 이미지와 텍스트 사이의 간격 조정 */
+    width: 100px;
+    margin-top: 70px;
+    float:left;
+  }

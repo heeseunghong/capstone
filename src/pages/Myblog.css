@@ -1,0 +1,60 @@
+.Blog{
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.orange-bg {
+    background-color: orange;
+}
+  
+.yellow-bg {
+    background-color: yellow;
+}
+  
+.blog-list-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.blog-image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin-right: 20px;
+}
+  
+.blog-detail {
+    overflow: hidden;
+}
+  
+.blog-title,
+.blog-desc,
+.blog-icon {
+    margin-bottom: 5px;
+}
+
+.content-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.custom-button {
+    background-color: transparent;
+    background-image: url('/public/img/writeReview.png');
+    margin: 5px; /* 버튼 간격 조정 */
+    margin-top: 25px;
+    width: 105px; /* 버튼 너비 조정 */
+    height: 29px; /* 버튼 높이 조정 */
+    background-size: cover; /* 이미지를 버튼 크기에 맞게 조정 */
+    border: none; /* 테두리 제거 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경하여 클릭 가능함을 나타냄 */
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-button:active {
+    transform: translateY(2px); /* 버튼을 아래로 2px 이동 */
+}

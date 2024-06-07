@@ -1,0 +1,124 @@
+/*
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+*/
+.mem-wrapper {
+    background-image: url('../img/mship.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.header {
+    background-color: cadetblue;
+}
+
+.m-wrap {
+
+    padding: 0;
+    margin: 0;
+
+    margin-top: 100px;
+    padding-top: 10px;
+}
+
+.membership-form {
+
+    width: 737px;
+    padding: 0;
+    margin: 0;
+    margin-left: 58px;
+
+    padding-bottom: 151px;
+    text-align: center;
+}
+.membership-form .int-area_m {
+
+    width: 536px;
+    height: 61px;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 9px;
+    margin-left: 89px;
+    margin-right: 112px;
+}
+.membership-form .int-area_m:first-child {
+    padding-top: 56px;
+}
+
+.membership-form .int-area_m input {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    border: 4px solid #262626;
+    border-radius: 43px;
+
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 800;
+    padding: 17px 45px 17px 34px;
+}
+.int-area_m #name, .int-area_m #pw, .int-area_m #num {
+    background: #FFD200;
+}
+.int-area_m #id, .int-area_m #email {
+    background: #FF7A00;
+}
+
+.int-area_m input::placeholder
+{
+    color: rgba(38, 38, 38, 0.74);
+}
+
+
+.membership-form .btn-area {
+
+    width: 536px;
+    height: 86px;
+
+    padding: 0;
+    margin: 0;
+    margin-left: 89px;
+    margin-right: 112px;
+    margin-top: 27px;
+    margin-bottom: 9px;
+}
+.membership-form .btn-area .btn {
+    width: 100%;
+    height: 100%;
+
+    background: #7790BA;
+    border: 4px solid #262626;
+    border-radius: 43px;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 34px;
+
+    color: #262626;
+    padding: 0;
+}
+.membership-form .login-link {
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+
+    line-height: 34px;
+    text-align: center;
+
+    padding-bottom: 29px;
+}
+.login-link a {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 2px solid #000000;
+}

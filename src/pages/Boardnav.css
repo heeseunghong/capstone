@@ -1,0 +1,20 @@
+nav {
+    margin-bottom: 20px;
+  }
+  
+.noticebtn, .communibtn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #262626;
+    color: #fff;
+  }
+  
+  .board-container {
+    width: 1200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 100px auto;
+  }

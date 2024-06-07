@@ -1,0 +1,360 @@
+/*
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+*/
+.header {
+    background-color: cadetblue;
+}
+
+.wrap_r {
+    width: 100%;
+    display: flex;
+}
+.storesear-wrap {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    box-sizing: border-box;
+    margin: 0 110px;
+}
+.storesearch {
+    box-sizing: border-box;
+    width: 100%;
+    height: 83px;
+
+    margin: 64px auto 57px auto;
+}
+
+.storesearch ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+.storesearch li {
+    float: left;
+}
+.storesearch .gugun {
+    display: inline-block;
+    width: 355px;
+    height: 83px;
+    margin-right: 13px;
+}
+.gugun .area-select {
+    width: 100%; height: 83px;
+
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #7790BA;
+    border: 6px solid #7790BA;
+    border-radius: 41.5px;
+
+    padding: 15px 35px 18px 24px;
+    margin-right: 13px;
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.gugun select {
+
+    background-image: url('../img/드롭다운.png');
+    background-repeat: no-repeat;
+    background-position: right 20px center; 
+}
+.search-form {
+    box-sizing: border-box;
+
+    width: 688px;
+    height: 83px;
+
+    border: 6px solid #FFD200;
+    border-radius: 41.5px;
+    padding: 0 74px 0 40px;
+
+    display: flex; /* flex 컨테이너로 설정 */
+    align-items: center; /* 수직 중앙 정렬 */
+    position: relative;
+}
+.search-form input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.search-form input {
+    width: 100%;
+    height: 72px;
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 16px;
+
+    outline-style: none;
+    border: none;
+
+    flex-grow: 1;
+}
+.search-form input::placeholder
+{
+    color: rgba(38, 38, 38, 0.74);
+}
+.search-form .btn-search {
+    border: none;
+
+    color: #FFD200;
+    width: 70px;
+    height: 72px;
+
+    padding: 8px;
+    background-color: transparent;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 20px;
+}
+.search-logo {
+    width: 166px;
+    height: 73px;
+
+    padding-top: 4px;
+}
+
+/* 추가 */
+.search-history {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    width: 560px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.history-item {
+    padding: 10px;
+    cursor: pointer;
+}
+.history-item:hover {
+    background-color: #f0f0f0;
+}
+
+.search-input-container {
+    display: flex; /* flex 컨테이너로 설정 */
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 630px;
+}
+.search-input-container input[type="search"] {
+    flex-grow: 1;
+    padding-right: 30px;
+}
+.clear-button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: rgba(38, 38, 38, 0.74);
+
+    margin-right: 10px;
+}
+.clear-button:hover {
+    color: #000;
+}
+
+
+
+.search-form .btn-search button {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.btn-search .search-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.search-icon {
+    background-image: url('../img/Vector.png');
+    background-repeat: no-repeat;
+    
+}
+
+.foodtype {
+    display: flex;
+    flex-direction: column;
+
+    height: 168px;
+    
+    margin-bottom: 57px;
+}
+.foodtype .top-button {
+    margin-bottom: 20px;
+    margin-left: 110px;
+}.foodtype .bottom-button {
+    margin-left: 349px;
+}
+
+.foodtype .top-button button,
+.foodtype .bottom-button button {
+    border: none;
+    height: 74px;
+
+    padding: 0 15px 0 15px;
+    margin-right: 18px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 16px;
+
+    color: #262626;
+
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 6px solid #262626;
+    border-radius: 46.5px;
+
+    cursor: pointer;
+}
+.top-button button:last-child,
+.bottom-button button:last-child {
+    margin-right: 0;
+}
+
+.recom-text {
+    width: 1000px;
+    margin-bottom: 51px;
+    margin-left: 120px;
+}
+.recom-text1, .recom-text2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+}
+.recom {
+    padding: 0;
+    margin: 0 60px;
+}
+.recom-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 79px;
+
+    padding: 0;
+    width: 100%;
+
+    margin-bottom: 48px;
+    margin: 0 60px 48px 60px;
+}
+
+.recombox {
+    width: 378px;
+    height: 501px;
+}
+.recombox:last-child {
+    padding-right: 0;
+}
+.recom-photo {
+    width: 378px;
+    height: 501px;
+
+}
+.recom-photo .a-photo {
+    background-color: #7790BA;
+    display: flex;
+
+    width: 378px;
+    height: 377px;
+}
+.recom-info {
+    text-align: left;
+
+    width: 378px;
+    height: 124px;
+}
+.link-style {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+.grade {
+    margin: 0;
+    padding-top: 16px;
+
+    width: 378px;
+    height: 39px;
+
+    display: flex;
+
+}
+.grade .star-wrap {
+    height: 41px;
+    float: left;
+}
+.grade_ {
+    display: flex;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+
+    line-height: 16px;
+    color: #FFD200;
+
+    padding-left: 5px;
+    padding-top: 10px;
+    
+}
+
+.storename {
+    display: flex;
+    align-items: center;
+
+    width: 378px;
+    height: 39px;
+}
+.store_name {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+
+    color: #262626;
+}
+.storename .toggle-bookmark {
+    margin-left: auto;
+    font-size: 34px;
+    cursor: pointer;
+    padding-bottom: 5px;
+
+    color: #262626;
+}
+.bookmark.active {
+    color: #FF7A00;
+}
+
+.address {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+
+    margin: 0;
+    padding-top: 10px;
+
+    color: #262626;
+}
+.address span {
+    color: #262626;
+}

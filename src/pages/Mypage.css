@@ -1,0 +1,399 @@
+.mypage {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.background-container {
+  position: relative;
+}
+
+.background-image {
+  width: 90%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 9vh;
+  left: 16vw;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  margin-top: 23px;
+}
+
+.profile-section {
+  margin-right: 20px;
+}
+
+.profile-upload-label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.profile-image {
+  width: 200px;
+  height: 240px;
+  border-radius: 20%;
+  object-fit: cover;
+  border: 2px solid #FFC700;
+  margin-left: 10px;
+}
+
+.profile-placeholder {
+  width: 200px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+  background-image: url('/public/img/smile.png');
+  border: 2px solid #FFC700;
+  color: #aaa;
+  font-size: 14px;
+  background-color: #FFC700;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.name-box,
+.phonenum-box,
+.email-box {
+  width: 230px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #FFC700;
+  background-color: #FFC700;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.add-box{
+  width: 750px;
+  height: 130px;
+  border-radius: 10px;
+  border: 1px solid #FFC700;
+  background-color: #FFC700;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons-row button {
+  margin: 10px;
+  width: 120px;
+  height: 43px;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+
+.Mylist,
+.Myreview,
+.Myblog {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Myreview {
+  background-image: url('/public/img/reviewbt.png');
+}
+
+.Mylist {
+  background-image: url('/public/img/listbt.png');
+}
+
+.Myblog {
+  background-image: url('/public/img/writingbt.png');
+}
+
+@media (max-width: 1300px) {
+  .overlay {
+    width: 100%;
+    top: 7vh;
+    left: 16vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 180px;
+    height: 200px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 200px;
+    height: 60px;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .add-box{
+    width: 650px;
+    height: 120px;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .buttons-row button {
+    width: 100px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .overlay {
+    width: 10%;
+    top: 6vh;
+    left: 17vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 150px;
+    height: 170px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 170px;
+    height: 50px;
+    font-size: 12px;
+    margin-left: 12px;
+  }
+
+  .add-box{
+    width: 550px;
+    height: 100px;
+    font-size: 12px;
+    margin-left: 12px;
+  }
+
+  .buttons-row button {
+    width: 85px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .overlay {
+    width: 100%;
+    top: 5.5vh;
+    left: 17vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 130px;
+    height: 150px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 150px;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  .add-box{
+    width: 480px;
+    height: 90px;
+    font-size: 10px;
+  }
+
+  .buttons-row button {
+    width: 70px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  .overlay {
+    width: 100%;
+    top: 5vh;
+    left: 16vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 120px;
+    height: 150px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 140px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  .add-box{
+    width: 440px;
+    height: 80px;
+    font-size: 10px;
+  }
+
+  .buttons-row button {
+    width: 69px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .overlay {
+    width: 100%;
+    top: 2vh;
+    left: 17vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 100px;
+    height: 120px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 100px;
+    height: 40px;
+    font-size: 8px;
+  }
+
+  .add-box{
+    width: 350px;
+    height: 70px;
+    font-size: 8px;
+  }
+
+  .buttons-row button {
+    width: 70px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .overlay {
+    width: 100%;
+    top: 1vh;
+    left: 16vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 90px;
+    height: 110px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 90px;
+    height: 35px;
+    font-size: 8px;
+  }
+
+  .add-box{
+    width: 300px;
+    height: 55px;
+    font-size: 8px;
+  }
+
+  .buttons-row button {
+    width: 57px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .overlay {
+    width: 100%;
+    top: 0.8vh;
+    left: 17vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 80px;
+    height: 100px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 80px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+  .add-box{
+    width: 270px;
+    height: 50px;
+    font-size: 8px;
+  }
+
+  .buttons-row button {
+    width: 58px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .overlay {
+    width: 100%;
+    left: 17vw;
+  }
+
+  .profile-image, .profile-placeholder {
+    width: 50px;
+    height: 70px;
+  }
+
+  .name-box,
+  .phonenum-box,
+  .email-box {
+    width: 70px;
+    height: 20px;
+    font-size: 8px;
+  }
+
+  .add-box{
+    width: 250px;
+    height: 35px;
+    font-size: 8px;
+  }
+
+  .buttons-row button {
+    width: 55px;
+    height: 20px;
+  }
+}
+

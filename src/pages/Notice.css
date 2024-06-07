@@ -1,0 +1,154 @@
+ul, li {
+    list-style: none;
+}
+
+
+.board_wrap{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.board_title{
+    
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    border-bottom: 3px solid #262626;
+}
+
+.board_title strong{
+    font-size: 2rem;
+}
+
+.btn_wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.btn_wrap a{
+    display: inline-block;
+    min-width: 100px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 2px solid #262626;
+    border-radius: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+.btn_wrap a:first-child{
+    margin-left: 0;
+}
+
+.btn_wrap a.on{
+    background-color: #262626;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.board_list{
+    width: 1000px;
+   
+    border-bottom: 2px solid #262626;
+    
+}
+
+.top {
+    display: flex;
+    justify-content: space-between; /* 요소들을 동일한 간격으로 정렬 */
+  }
+  
+  /* 각 요소의 스타일 */
+  .top > div {
+    flex: 1; /* 동일한 너비로 설정 */
+  }
+
+.board_page{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+
+.button{
+    display: inline-block;
+    min-width: 80px;
+    min-height: 35px;
+    margin-left: 10px;
+    margin-bottom: 10px;;
+    margin-top:10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+  
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    /*background-color: #f4f4f4;*/
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #f9f9f9;
+  }
+  
+  th.number-col {
+    width: 10%;
+  }
+
+ th.title-col {
+  width: 50%;
+}
+
+th.author-col {
+  width: 15%;
+}
+
+th.date-col {
+  width: 15%;
+}
+
+th.views-col {
+  width: 10%;
+}
+
+.boardsearch{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.searchboard{
+   width: 250px;
+   height: 25px;
+   border-radius: 3px;
+}
+
+
+.buttons{
+    margin-top: 20px;
+
+}
+

@@ -1,0 +1,196 @@
+
+.rect1{    
+    background-color: #ffd200;
+    width: auto;
+    height: 800px;
+    margin-top: 300px;
+    font-size: 30px;
+   
+}
+
+.hr {
+    width : 50%;
+    color: black;
+  }
+
+.rect2{
+    width:300px;
+    height:510px;
+    border:1px solid blach;
+
+}
+
+
+.mainlogo{
+    width: auto;
+    margin-top: 100px;
+
+}
+
+.search{
+    width: auto;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.orange-background {
+    margin-top: 200px;
+    background-color:#ffd200;
+  }
+
+  .string{
+    padding: 50px;
+    
+    
+  }
+
+.introduce{
+    margin-top: 50px;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    word-spacing: 2px;
+    
+}
+
+.busanmap{
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.map{
+    position: relative;
+    width: 100%;
+}
+
+.btnmap{
+    top: 100px;
+    /*position: absolute;
+    top: 400px ;
+    left:200px ;*/
+}
+
+.boardcontainer{
+    /*
+    width: 1200px;
+    height: 800px;
+    margin-top: 300px;
+    margin-left:500px;
+*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.foodimage-container {
+    
+    width: 1440px;
+  }
+
+.foodimage-container img{
+    max-width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+.search_container{
+    box-shadow: 0 4px 8px rgba(0, 0.2, 0, 0.2);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffd200;
+    width: 1500px;
+    height: 800px;
+    display: inline-block;
+}
+
+.mapcontainer{
+    position: relative;
+    
+    display: flex;
+   justify-content: center; /* 수평 정렬 */
+   align-items: center; /* 수직 정렬 */
+    flex-direction: column;
+    
+    background-color: aquamarine;
+    justify-content: space-between;
+   
+    
+    width: 1500px;
+    height: 1500px;
+    padding: 20px;
+    
+    
+}
+.busanmap{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    
+    display: flex;
+   justify-content: center; /* 수평 정렬 */
+   align-items: center; /* 수직 정렬 */
+    flex-direction: column;
+    
+    /*background-color: aquamarine;*/
+    justify-content: space-between;
+    
+   
+    
+}
+
+
+.btnmap{
+   
+    position: absolute; /* 자식 요소 위치 설정 */
+    margin-top: 400px; /* 부모 요소의 세로 중앙 위치 */
+    margin-left: -1000px; /* 부모 요소의 가로 중앙 위치 */
+    transform: translate(-50%, -50%); /* 중앙 정렬 */
+    
+    
+}
+
+.boardcontainer{
+    
+    width: 1300px;
+    height: 150px;
+    padding: 40px;
+    display: inline-block;
+ /*
+   background-color: aqua;
+   
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    */
+    font-size: 0;
+    
+}
+
+h1{
+    font-size: 80px;
+    float:left;
+    /*float: center;*/
+}
+
+
+.boardcontainer h1,
+.boardcontainer img {
+  display: inline-block; /* 요소들을 인라인 블록 요소로 설정하여 나란히 정렬 */
+  vertical-align: top; /* 요소들을 상단 정렬 */
+}
+
+.boardcontainer img {
+    margin-left: 30px; /* 이미지와 텍스트 사이의 간격 조정 */
+    width: 100px;
+    margin-top: 70px;
+    float:left;
+  }
